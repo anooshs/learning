@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BrightVista</title>
+        <link rel="shortcut icon" href="icon.png">
+        <script src="services.js"></script>
+        <link rel="stylesheet" type="text/css" href="services.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="showHome">
+            <header>
+                <nav class="nav-bar-cls">
+                    <ul class="ul-cls">
+                        <li><a href="#showHome" onclick="navigateHome()">Home</a></li>
+                        <li><a href="#aboutus" onclick="showDiv('aboutus')">About Us</a></li>
+                        <li><a href="#services" onclick="showDiv('services')">Services</a></li>
+                        <li><a href="#testimonials" onclick="showDiv('testimonials')">Testimonials</a></li>
+                        <li><a href="#contactus" onclick="showDiv('contactus')">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="small-container">
+                <div class="row row-2">
+                    <h2>All Products</h2>
+                    <select name="productsDrop" id="productsDrop">
+                        <option value="">Default Sorting</option>
+                        <option value="">Sort by price</option>
+                        <option value="">Sort by rating</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/shoes1.jpg" alt="shoes1">
+                    <h4>Shoes 1</h4>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p> &#8377; 1000.00</p>
+                </div>
+                <div class="col-3">
+                    <img src="images/shoes2.jpg" alt="shoes2">
+                    <h4>Shoes 2</h4>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p> &#8377; 1150.00</p>
+                </div>
+                <div class="col-3">
+                    <img src="images/shoes3.jpg" alt="shoes3">
+                    <h4>Shoes 3</h4>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                    <p> &#8377; 1500.00</p>
+                </div>
+                <div class="col-3">
+                    <img src="images/shoes4.jpg" alt="shoes4">
+                    <h4>Shoes 4</h4>
+                    <div class="rating">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p> &#8377; 1070.00</p>
+                </div>
+            </div>
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="container">
+                <div class="footer-cls">
+                    <ul>
+                        <li>Home</li>
+                        <li><a href="#">Home 1</a></li>
+                        <li><a href="#">Home 2</a></li>
+                        <li><a href="#">Home 3</a></li>
+                    </ul>
+                    <ul>
+                        <li>About Us</li>
+                        <li><a href="#">About Us 1</a></li>
+                        <li><a href="#">About Us 2</a></li>
+                        <li><a href="#">About Us 3</a></li>
+                    </ul>
+                    <ul>
+                        <li>Services</li>
+                        <li><a href="#">Services 1</a></li>
+                        <li><a href="#">Services 2</a></li>
+                        <li><a href="#">Services 3</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy-rights">
+                Copyright &copy; 2025 BrightVista Solutions
+            </div>
+        </footer>
+    </body>
+</html>
